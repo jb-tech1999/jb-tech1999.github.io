@@ -1,0 +1,16 @@
+body{
+  background-color: #cecece;
+}
+
+.navbar{
+  font-family: arial;
+  width: 100%;
+  background-color: gray;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+}
