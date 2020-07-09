@@ -1,5 +1,10 @@
 body{
-  background-color: #cecece;
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
 .navbar{
@@ -72,8 +77,19 @@ body{
   opacity: 50%;
 }
 
-.content h1{
+.title h1{
   font-family: arial;
-  width: 50%;
-  
+  width: 20%;
+
+}
+
+.content p{
+  font-family: arial;
+
+}
+.content{
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px #cecece;
+  backdrop-filter: blur(2px);
 }
